@@ -6,20 +6,20 @@ class Ypm < Formula
   # Bump checklist: update the version here and in both URLs, then refresh
   # each SHA-256 from the matching release artifact. Template lives in the
   # main repo at Formula/ypm.rb.
-  version "0.9.1"
+  version "0.9.2"
 
   on_macos do
-    url "https://github.com/nagi-studio/YesPlayMusic/releases/download/v0.9.1/ypm-macos-aarch64",
+    url "https://github.com/nagi-studio/YesPlayMusic/releases/download/v0.9.2/ypm-macos-aarch64",
         using: :nounzip
-    sha256 "53dc59b28733198a107010c18fb061f588be3261017a8878273c69601d2dc7ff"
+    sha256 "d21fc4ba86dc9eaf3daaf55dbc349204938bdc01e3852a42aa1a93688519fcac"
 
     depends_on arch: :arm64
   end
 
   on_linux do
-    url "https://github.com/nagi-studio/YesPlayMusic/releases/download/v0.9.1/ypm-linux-x64",
+    url "https://github.com/nagi-studio/YesPlayMusic/releases/download/v0.9.2/ypm-linux-x64",
         using: :nounzip
-    sha256 "ddfada2f1147d34c6ddbcfffdcc3287352f8684f881847945c34827810ff4a22"
+    sha256 "e12b1a8dcb32f11e41c1af0c2241b6df62526225014d068433da7a030eec7702"
 
     depends_on arch: :x86_64
     depends_on "alsa-lib"
