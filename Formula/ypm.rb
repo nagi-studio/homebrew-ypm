@@ -8,9 +8,9 @@ class Ypm < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/nagi-studio/YesPlayMusic/releases/download/v0.11.0/ypm-macos-aarch64",
+      url "https://github.com/nagi-studio/YesPlayMusic/releases/download/v0.11.1/ypm-macos-aarch64",
           using: :nounzip
-      sha256 "e2f1fdf2447791f283a5d71896bafc9c16f8e5eb3985a44fbd1de8c5daedc8fe"
+      sha256 "22e92c32fdd256addc81fc6679ba4d0f555832a4c2e32622a00097cad2b7933c"
     end
 
     depends_on arch: :arm64
@@ -18,9 +18,9 @@ class Ypm < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/nagi-studio/YesPlayMusic/releases/download/v0.11.0/ypm-linux-x64",
+      url "https://github.com/nagi-studio/YesPlayMusic/releases/download/v0.11.1/ypm-linux-x64",
           using: :nounzip
-      sha256 "ad51120eadfa47e4bf9e53efefd040db41ae68b98099a6644f3b0f6f2bf8119d"
+      sha256 "535ea35eac375e306e96a9dc9ad045e59ffa81ee060c4e00f259efa032073652"
     end
 
     depends_on "alsa-lib"
