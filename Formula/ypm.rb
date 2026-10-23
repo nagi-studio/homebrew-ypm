@@ -1,6 +1,6 @@
 class Ypm < Formula
-  desc "Terminal client for YesPlayMusic"
-  homepage "https://github.com/nagi-studio/YesPlayMusic"
+  desc "Terminal client for Yokaze"
+  homepage "https://github.com/nagi-studio/Yokaze"
   # Bump checklist: update both URLs, then refresh each SHA-256 from the
   # matching release artifact. Template lives in the main repo at
   # Formula/ypm.rb.
@@ -8,9 +8,9 @@ class Ypm < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/nagi-studio/YesPlayMusic/releases/download/v0.12.0/ypm-macos-aarch64",
+      url "https://github.com/nagi-studio/Yokaze/releases/download/v0.13.0/ypm-macos-aarch64",
           using: :nounzip
-      sha256 "32caeb6a1ec6e07270cceb039e96f92ccbc302fe9955461c3f06245d9b6bab7d"
+      sha256 "6d6e894ff893dc6b8791f1f46e0992124cbbd69cd5417354130857d153a355ff"
     end
 
     depends_on arch: :arm64
@@ -18,9 +18,9 @@ class Ypm < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/nagi-studio/YesPlayMusic/releases/download/v0.12.0/ypm-linux-x64",
+      url "https://github.com/nagi-studio/Yokaze/releases/download/v0.13.0/ypm-linux-x64",
           using: :nounzip
-      sha256 "4fe7ee565a9ae970ab146a430b73b28e364f8dd93b7b2f51d69449d6589944b5"
+      sha256 "62f571de12dc5d74a7e26de84482a3552850a3796e6dda4fc9fa9c7d4702abd7"
     end
 
     depends_on "alsa-lib"
